@@ -1,5 +1,6 @@
 import React from 'react';
-import SassComponent from "./SassComponent";
+import CssModule from "./CSSModule";
+// import SassComponent from "./SassComponent";
 // import Info from "./Info";
 // import Average from "./Average";
 // import Counter from "./Counter";
@@ -45,7 +46,8 @@ const App = () => {
                 // const [visible, setVisible] = useState(false);
     return (
         <div>
-            <SassComponent />
+            <CssModule />
+            {/*<SassComponent />*/}
             {/*<Info />*/}
             {/*<Counter />*/}
             {/*<button onClick={() => {*/}
